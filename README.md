@@ -7,8 +7,8 @@
                                                                                     
 ```
 
-🎯 Objective: reproduce [this](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
+🎯 [Objective](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
 
 📝 [Assignment](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
-🦆 Result not ready yet
+🦕 Result not ready yet
