@@ -1,4 +1,38 @@
+:root {
+    --blue: rgb(25, 125, 201);
+    --yellow: rgb(234, 166, 33);
+    --light-gray: rgb(219, 226, 236);
+}
+
 body {
     margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-color:lavender;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.page-layout {
+    grid-template: 1fr 4fr / 1fr 4fr;
+}
+
+.sidebar {
+    grid-row: 1 / -1;
+    grid-column: 1;
+    background-color: var(--blue);
+}
+
+.header {
+    grid-row: 1;
+    grid-column: 2 / -1;
+    background-color: var(--yellow);
+}
+
+.main-content {
+    grid-row: 2 / -1;
+    grid-column: 2 / -1;
+    background-color: var(--light-gray);
 }
