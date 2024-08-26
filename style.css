@@ -4,12 +4,24 @@
     --light-gray: rgb(219, 226, 236);
 }
 
+p {
+    margin: 0;
+}
+
 body {
     margin: 0;
     width: 100vw;
     height: 100vh;
     background-color:lavender;
     font-family: "Roboto", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
 }
 
 /* GRID */
@@ -26,6 +38,18 @@ body {
     grid-row: 1 / -1;
     grid-column: 1;
     background-color: var(--blue);
+}
+
+.sidebar-grid {
+    grid-template-rows: 50px 205px 100px;
+}
+
+.sidebar-icons-3 {
+    grid-template-rows: repeat(30px, 3);
+}
+
+.sidebar-icons-6 {
+    grid-template-rows: repeat(30px, 6);
 }
 
 .header {
@@ -52,8 +76,16 @@ body {
 
 /* GAP */
 
+.gap-5 {
+    gap: 5px;
+}
+
 .gap-10 {
     gap: 10px;
+}
+
+.gap-30 {
+    gap: 30px;
 }
 
 /* SIDEBAR */
@@ -63,15 +95,28 @@ body {
     height: 40px;
 }
 
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
 .dashboard-title {
-    color: white;
     font-size: 1.25em;
-    font-weight: bold;
 }
 
 /* PADDING */
 
+.px-10 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .px-20 {
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
