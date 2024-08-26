@@ -2,6 +2,9 @@
     --blue: rgb(25, 125, 201);
     --yellow: rgb(234, 166, 33);
     --light-gray: rgb(219, 226, 236);
+
+    --profile-small: 40px;
+    --profile-big: 60px;
 }
 
 p {
@@ -26,10 +29,6 @@ input[type="search"] {
     height: 1.75em;
 }
 
-.bg3 {
-    background-color: pink;
-}
-
 .bg4 {
     background-color: green;
 }
@@ -38,21 +37,43 @@ input[type="search"] {
 
 .circle-small {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: var(--profile-small);
+    height: var(--profile-small);
+}
+
+.circle-big {
+    border-radius: 50%;
+    width: var(--profile-big);
+    height: var(--profile-big);
 }
 
 .profile-img-small {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: var(--profile-small);
+    height: var(--profile-small);
 }
+
+.profile-img-big {
+    border-radius: 50%;
+    width: var(--profile-big);
+    height: var(--profile-big);
+}
+
+/* BACKGROUND */
 
 .bg-yellow {
     background-color: var(--yellow);
 }
 
 /* TEXT */
+
+.text-small {
+    font-size: 0.75em;
+}
+
+.text-big {
+    font-size: 1.25em;
+}
 
 .bold-light {
     font-weight: 500;
@@ -100,7 +121,7 @@ input[type="search"] {
 }
 
 .header-grid {
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 2fr 3fr;
     grid-template-columns: 3fr 2fr;
 }
 
@@ -154,10 +175,6 @@ input[type="search"] {
     height: 20px;
 }
 
-.dashboard-title {
-    font-size: 1.25em;
-}
-
 /* PADDING */
 
 .px-10 {
@@ -165,9 +182,13 @@ input[type="search"] {
     padding-left: 10px;
 }
 
-.px-20 {
+.px-50 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.pr-20 {
     padding-right: 20px;
-    padding-left: 20px;
 }
 
 .pr-50 {
@@ -176,6 +197,10 @@ input[type="search"] {
 
 .pl-20 {
     padding-left: 20px;
+}
+
+.pl-50 {
+    padding-left: 50px;
 }
 
 .py-10 {
