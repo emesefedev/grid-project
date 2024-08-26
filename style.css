@@ -12,9 +12,32 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color:lavender;
+    background-color:white;
     font-family: "Roboto", sans-serif;
 }
+
+input[type="search"] {
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-gray);
+    width: 90%;
+    height: 1.75em;
+}
+
+.bg2 {
+    background-color: red;
+}
+
+.bg3 {
+    background-color: pink;
+}
+
+.bg4 {
+    background-color: green;
+}
+
+/* TEXT */
 
 .bold {
     font-weight: bold;
@@ -55,7 +78,11 @@ body {
 .header {
     grid-row: 1;
     grid-column: 2 / -1;
-    background-color: var(--yellow);
+}
+
+.header-grid {
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 2fr;
 }
 
 .main-content {
