@@ -11,4 +11,4 @@
 
 📝 [Assignment](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
-🦕 Result not ready yet
+🦕 [Result](https://emesefedev.github.io/grid-project)
