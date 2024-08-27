@@ -5,8 +5,10 @@
         <link rel="stylesheet" href="style.css">
         <title>Admin Dashboard</title>
     </head>
+
     <body class="grid-container page-layout">
-        <div class="sidebar grid-container sidebar-grid gap-30 px-50 py-10">
+        <!-- SIDEBAR -->
+        <div class="sidebar grid-container sidebar-grid gap-30 px-10 py-10">
             <div class="flex align-center gap-10">
                 <img 
                     class="dashboard-icon" 
@@ -14,9 +16,9 @@
                     alt="Dashboard icon">
 
                 <p class="text-big bold text-white">Dashboard</p>
-
             </div>
-            <div class="grid-container sidebar-icons-6 gap-5 px-50">
+
+            <div class="grid-container sidebar-icons-6 gap-5 px-10">
                 <div class="flex align-center gap-10">
                     <img 
                         class="icon"
@@ -60,6 +62,7 @@
                     <p class="bold-light text-white">Communities</p>
                 </div>
             </div>
+
             <div class="grid-container sidebar-icons-3 gap-5 px-10">
                 <div class="flex align-center gap-10">
                     <img 
@@ -82,9 +85,10 @@
                         alt="Privacy icon">
                     <p class="bold-light text-white">Privacy</p>
                 </div>
-            </div>
-            
+            </div>    
         </div>
+
+        <!-- HEADER -->
         <div class="header grid-container header-grid">
             <div class="flex align-center gap-10 pr-20 pl-50 py-10">
                 <img 
@@ -120,12 +124,162 @@
                     <p class="text-big bold">Morgan Oakley (@morgan)</p>
                 </div>
             </div>
-            <div class="bg4">
-                d
+            <div class="grid-container header-buttons-3 pr-50 pl-20">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </div>
-        <div class="main-content">
-            main-content
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content grid-container main-content-grid bg-light-gray">
+            <div class="projects px-10 py-20">
+                <p class="bold-light">Your Projects</p>
+
+                <div class="grid-container projects-grid w100p h90p gap-10 mt-10">
+                    <div class="grid-container project-card project-card-grid bg-white p-20">
+                        <div>
+                            <p class="bold-light card-title">Super Cool Project</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text">Curabitur quis urna vitae lacus scelerisque lacinia.</p>
+                        </div>
+                        <div class="flex align-center justify-end gap-20">
+                            <img 
+                                class="icon"
+                                src="images/icons/star-plus.svg" 
+                                alt="Star plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/eye-plus.svg" 
+                                alt="Eye plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/share.svg" 
+                                alt="Share icon">
+                        </div>
+                    </div>
+                    <div class="grid-container project-card project-card-grid bg-white p-20">
+                        <div>
+                            <p class="bold-light card-title">Less Cool Project</p>
+                            <p class="card-text">Fusce a ligula vitae lectus tincidunt vehicula.</p>
+                            <p class="card-text">Quisque blandit diam ut ex vulputate, sit amet gravida turpis tristique.</p>
+                            <p class="card-text">Integer non diam ac justo fermentum elementum.</p>
+                        </div>
+                        <div class="flex align-center justify-end gap-20">
+                            <img 
+                                class="icon"
+                                src="images/icons/star-plus.svg" 
+                                alt="Star plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/eye-plus.svg" 
+                                alt="Eye plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/share.svg" 
+                                alt="Share icon">
+                        </div>
+                    </div>
+                    <div class="grid-container project-card project-card-grid bg-white p-20">
+                        <div>
+                            <p class="bold-light card-title">Impossible App</p>
+                            <p class="card-text">Praesent vel magna at justo cursus ultrices.</p>
+                        </div>
+                        <div class="flex align-center justify-end gap-20">
+                            <img 
+                                class="icon"
+                                src="images/icons/star-plus.svg" 
+                                alt="Star plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/eye-plus.svg" 
+                                alt="Eye plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/share.svg" 
+                                alt="Share icon">
+                        </div>
+                    </div>
+                    <div class="grid-container project-card project-card-grid bg-white p-20">
+                        <div>
+                            <p class="bold-light card-title">Easy Peasy App</p>
+                            <p class="card-text">Sed lacinia odio nec metus scelerisque, at faucibus eros ultrices. </p>
+                            <p class="card-text">Vivamus convallis, enim eget laoreet luctus, purus sem interdum urna, vitae aliquam metus nunc id est.</p>
+                        </div>
+                        <div class="flex align-center justify-end gap-20">
+                            <img 
+                                class="icon"
+                                src="images/icons/star-plus.svg" 
+                                alt="Star plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/eye-plus.svg" 
+                                alt="Eye plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/share.svg" 
+                                alt="Share icon">
+                        </div>
+                    </div>
+                    <div class="grid-container project-card project-card-grid bg-white p-20">
+                        <div>
+                            <p class="bold-light card-title">Ad Blocker</p>
+                            <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam auctor, lectus ac vulputate tempus, quam ex porttitor libero, vel tincidunt ligula felis id erat.</p>
+                        </div>
+                        <div class="flex align-center justify-end gap-20">
+                            <img 
+                                class="icon"
+                                src="images/icons/star-plus.svg" 
+                                alt="Star plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/eye-plus.svg" 
+                                alt="Eye plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/share.svg" 
+                                alt="Share icon">
+                        </div>
+                    </div>
+                    <div class="grid-container project-card project-card-grid bg-white p-20">
+                        <div>
+                            <p class="bold-light card-title">Money Maker</p>
+                            <p class="card-text">Cras auctor risus in sem ultricies, ac scelerisque enim facilisis.</p>
+                            <p class="card-text">Nulla facilisi.</p>
+                            <p class="card-text">Proin sit amet metus ut risus sagittis tincidunt.</p>
+                        </div>
+                        <div class="flex align-center justify-end gap-20">
+                            <img 
+                                class="icon"
+                                src="images/icons/star-plus.svg" 
+                                alt="Star plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/eye-plus.svg" 
+                                alt="Eye plus icon">
+                            <img 
+                                class="icon"
+                                src="images/icons/share.svg" 
+                                alt="Share icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="announcements pl-10 pr-20 py-20">
+                <p class="bold-light">Announcements</p>
+
+                <div class="card bg-white mt-10">
+
+                </div>
+            </div>
+            <div class="trending pl-10 pr-20 py-20">
+                <p class="bold-light">Trending</p>
+
+                <div class="card bg-white mt-10">
+
+                </div>
+            </div>
         </div>
         </div>
     </body>
